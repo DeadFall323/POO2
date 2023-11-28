@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tela_ADM_Menu</class>
+ <widget class="QMainWindow" name="Tela_ADM_Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1030</width>
+    <height>868</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tela_Admin</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">/* Aplicando o estilo antigo com tons de cinza */
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(218, 218, 218);
+background-color: rgb(60, 60, 60);
+border: none; /* Removendo o contorno das bordas nos quadros */
+border-radius: 3px;
+padding: 8px 16px;
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="7" column="0">
+        <widget class="QFrame" name="frame_6">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QFrame" name="frame_17">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QFrame" name="frame_21">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QPushButton" name="Cadastrar_jogo">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Cadastrar</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_20">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_16">
+             <item>
+              <widget class="QPushButton" name="Buscar_jogo">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Buscar</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_15">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_15">
+             <item>
+              <widget class="QPushButton" name="Remover_jogo">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Remover</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_22">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_17">
+             <item>
+              <widget class="QPushButton" name="Atualizar_jogo">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Atualizar</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QFrame" name="frame_7">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QFrame" name="frame_5">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QFrame" name="frame_25">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_20">
+             <item>
+              <widget class="QPushButton" name="Buscar_Usuario">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Buscar</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_24">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_19">
+             <item>
+              <widget class="QPushButton" name="Editar_usuario">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Editar</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_23">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_18">
+             <item>
+              <widget class="QPushButton" name="Verificar_jogos_usuario">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Verificar jogos</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_26">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QPushButton" name="pushButton_8">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>PushButton</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QFrame" name="frame_9">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Jogos</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QFrame" name="frame_11">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame_2">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QTextBrowser" name="textBrowser">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Bem vindo a Tela do administrador dos serviços referentes ao Jogue Agora&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;Nessa tela é possivel:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	JOGOS:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	1- Cadastrar Novos Jogos&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	2- Buscar Jogos&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	3- Remover Jogos&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	USUÁRIOS:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	1- Buscar Usuários&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	2- Mudar Saldo&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8.25pt;&quot;&gt;	3- Verificar Jogos da Conta&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QFrame" name="frame_13">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QFrame" name="frame_14">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QFrame" name="frame_19">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="sair">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(80, 80, 80);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+            </property>
+            <property name="text">
+             <string>Voltar</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QFrame" name="frame_8">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1" alignment="Qt::AlignHCenter">
+        <widget class="QFrame" name="frame_12">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7"/>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QFrame" name="frame_18">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Usuarios</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1030</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

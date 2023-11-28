@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31ca2cc5-7280-4c7b-8f2d-7e69dc70aa1d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///a.sql" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XLPgjASMddPO66iDzHhgX5qwBP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Jogue_Agora",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora\Templates" />
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora\Interface\Logo" />
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora\Database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora\testes" />
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora\Templates" />
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora\Interface\Imagens" />
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora" />
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\Jogue_Agora\Database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tela_cad_novo_jogo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Templates/Tela_cad_novo_jogo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tela_cadastrar_novo_jogo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Tela_cadastrar_novo_jogo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tela_cadastro_adm (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Tela_cadastro_adm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tela_cadastro_adm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Templates/Tela_cadastro_adm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Tela_cadastrar_novo_jogo" />
+        <item itemvalue="Python.Tela_cad_novo_jogo" />
+        <item itemvalue="Python.Tela_cadastro_adm (1)" />
+        <item itemvalue="Python.Tela_cadastro_adm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31ca2cc5-7280-4c7b-8f2d-7e69dc70aa1d" name="Changes" comment="" />
+      <created>1698405500295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698405500295</updated>
+      <workItem from="1698405501488" duration="13182000" />
+      <workItem from="1698426076400" duration="2639000" />
+      <workItem from="1698445848394" duration="5090000" />
+      <workItem from="1698619691755" duration="1218000" />
+      <workItem from="1698625062520" duration="299000" />
+      <workItem from="1698667713164" duration="581000" />
+      <workItem from="1698679190104" duration="40000" />
+      <workItem from="1698679231326" duration="347000" />
+      <workItem from="1698751653887" duration="21000" />
+      <workItem from="1698751810870" duration="12000" />
+      <workItem from="1698751847649" duration="3959000" />
+      <workItem from="1698757479659" duration="95000" />
+      <workItem from="1698760284937" duration="5399000" />
+      <workItem from="1698768473951" duration="1332000" />
+      <workItem from="1698771136472" duration="2817000" />
+      <workItem from="1698866085021" duration="250000" />
+      <workItem from="1699006891987" duration="492000" />
+      <workItem from="1699007459007" duration="19186000" />
+      <workItem from="1699142418651" duration="734000" />
+      <workItem from="1699144676509" duration="41000" />
+      <workItem from="1699181016183" duration="10199000" />
+      <workItem from="1699211625177" duration="5783000" />
+      <workItem from="1699279184702" duration="25000" />
+      <workItem from="1699285096115" duration="60000" />
+      <workItem from="1699285724612" duration="16000" />
+      <workItem from="1699361851381" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_login_user2.coverage" NAME="Tela_login_login_user2 Coverage Results" MODIFIED="1698771297088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_cadastro.coverage" NAME="Tela_login_cadastro Coverage Results" MODIFIED="1699185845252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_cadastro_adm.coverage" NAME="Tela_cadastro_adm Coverage Results" MODIFIED="1699213355832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_login_user__1_.coverage" NAME="Tela_login_login_user (1) Coverage Results" MODIFIED="1699014530018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$teste_sql__1_.coverage" NAME="teste_sql (1) Coverage Results" MODIFIED="1699012830106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testes" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_cadastro_user.coverage" NAME="Tela_cadastro_user Coverage Results" MODIFIED="1699185753097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_cad_novo_jogo.coverage" NAME="Tela_cad_novo_jogo Coverage Results" MODIFIED="1699214990430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$atividade31_10.coverage" NAME="atividade31_10 Coverage Results" MODIFIED="1698763725189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_login_user.coverage" NAME="Tela_login_login_user Coverage Results" MODIFIED="1699041036177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Cliente_servidor_SERVER.coverage" NAME="Cliente_servidor_SERVER Coverage Results" MODIFIED="1699029246027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testes" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_ADM_jogos.coverage" NAME="Tela_ADM_jogos Coverage Results" MODIFIED="1699212034573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$resolucao.coverage" NAME="resolucao Coverage Results" MODIFIED="1699021474961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testes" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_user__1_.coverage" NAME="Tela_login_user (1) Coverage Results" MODIFIED="1699181056427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_inicial.coverage" NAME="Tela_inicial Coverage Results" MODIFIED="1699041011020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_inicio__1_.coverage" NAME="Tela_inicio (1) Coverage Results" MODIFIED="1699182011501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Run.coverage" NAME="Run Coverage Results" MODIFIED="1698625275910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Cliente_servidor_CLIENT.coverage" NAME="Cliente_servidor_CLIENT Coverage Results" MODIFIED="1699029267729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testes" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_cadastrar_novo_jogo.coverage" NAME="Tela_cadastrar_novo_jogo Coverage Results" MODIFIED="1699215304177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_Principal.coverage" NAME="Tela_Principal Coverage Results" MODIFIED="1699185687395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_adm.coverage" NAME="Tela_login_adm Coverage Results" MODIFIED="1699204239623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$teste_sql.coverage" NAME="teste_sql Coverage Results" MODIFIED="1698771772890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_Cadastro.coverage" NAME="Tela_Cadastro Coverage Results" MODIFIED="1699185838137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_inicial__1_.coverage" NAME="Tela_inicial (1) Coverage Results" MODIFIED="1698449543495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login.coverage" NAME="Tela_login Coverage Results" MODIFIED="1699041303785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_user.coverage" NAME="Tela_login_user Coverage Results" MODIFIED="1699185294353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_cadastro__1_.coverage" NAME="Tela_login_cadastro (1) Coverage Results" MODIFIED="1699014205676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_inicio__2_.coverage" NAME="Tela_inicio (2) Coverage Results" MODIFIED="1699041582833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$query.coverage" NAME="query Coverage Results" MODIFIED="1698755808803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_menu_principal.coverage" NAME="Tela_menu_principal Coverage Results" MODIFIED="1699202923932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login_cadastro2.coverage" NAME="Tela_login_cadastro2 Coverage Results" MODIFIED="1699013073286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Main.coverage" NAME="Main Coverage Results" MODIFIED="1699235684072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Jogue_Agora.coverage" NAME="Jogue_Agora Coverage Results" MODIFIED="1699187740635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_login__1_.coverage" NAME="Tela_login (1) Coverage Results" MODIFIED="1699041119150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Templates" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_cadastro_adm__1_.coverage" NAME="Tela_cadastro_adm (1) Coverage Results" MODIFIED="1699213736262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$Tela_inicio.coverage" NAME="Tela_inicio Coverage Results" MODIFIED="1699185897606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Jogue_Agora$rlm.coverage" NAME="rlm Coverage Results" MODIFIED="1699024174317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testes" />
+  </component>
+</project>
