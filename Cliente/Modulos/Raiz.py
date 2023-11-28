@@ -8,6 +8,9 @@ import threading
 import subprocess
 import os
 
+#teste
+
+
 # Função global
 def obter_endereco_ip():
     hostname = socket.gethostname()
