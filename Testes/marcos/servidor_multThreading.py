@@ -25,8 +25,8 @@ class ClienteThread(threading.Thread):
 
 
 if __name__ == '__main__':
-    localhost = ''
-    port = 1234
+    localhost = 'localhost'
+    port = 32323
     addr = (localhost, port)
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)

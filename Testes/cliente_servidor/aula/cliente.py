@@ -12,7 +12,7 @@ try:
 
     while True:
         try:
-            email = "ttt"
+            email = "emailkawan"
             senha = "123"
 
             # Envia dados de login
@@ -25,13 +25,20 @@ try:
 
             if recebe.decode('utf-8') == '1':
                 print("Login encontrado")
-                # Envia mensagem 'sair' para o servidor
 
-                encerrar = "sair"
-                client_socket.send(encerrar.encode('utf-8'))
-                # Fecha a conexão após enviar 'sair'
-                client_socket.close()
-                break
+                condicao = True
+                while condicao == True:
+                # Envia mensagem 'sair' para o servidor
+                    mensagem = input("Digite a mensagem: ")
+                    if mensagem == 'sair':
+                        client_socket.send(mensagem.encode('utf-8'))
+                        client_socket.close()
+                        break
+
+
+                    client_socket.send(mensagem.encode('utf-8'))
+                    client_socket.close()
+                    break
 
             elif recebe.decode('utf-8') == '0':
                 print("Usuario ou senha incorretos")
