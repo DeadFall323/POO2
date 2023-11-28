@@ -18,7 +18,7 @@ def obter_endereco_ip():
 
 def conecta_servidor():
     #ip = '192.168.1.78'
-    ip = "localhost"
+    ip = "192.168.241.179"
     port = 32323
     addr = ((ip, port))
     return addr
