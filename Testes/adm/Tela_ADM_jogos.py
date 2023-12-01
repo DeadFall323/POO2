@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import *
 
-from Cliente.Templates.Tela_ADM_Jogos import Ui_Tela_ADM_Menu
-from Cliente.Modulos.adm.Tela_cadastrar_novo_jogo import Tela_inicial
+from Cliente.Modulos.Templates.Tela_ADM_Jogos import Ui_Tela_ADM_Menu
+from Testes.adm.Tela_cadastrar_novo_jogo import Tela_inicial
 
 class Tela_adm_menu(QMainWindow):
     def __init__(self, *args, **argvs):

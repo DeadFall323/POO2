@@ -1,17 +1,9 @@
-from PyQt5.QtWidgets import QApplication, QPushButton
-from PyQt5.Qt import Qt
-from PyQt5.QtCore import pyqtSlot
-from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import *
-from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtPrintSupport import *
-import os
-import sys
 
 import mysql.connector as mysql
 import traceback
 
-from Cliente.Templates.Tela_cad_novo_jogo import Ui_MainWindow
+from Cliente.Modulos.Templates.Tela_cad_novo_jogo import Ui_MainWindow
 
 class Tela_inicial(QMainWindow):
     def __init__(self, *args, **argvs):
@@ -24,8 +16,6 @@ class Tela_inicial(QMainWindow):
 
     def cancelar(self):
         self.close()
-
-    import traceback
 
     def cadastrar(self):
         nome_jogo = self.ui.Nome_jogo.text()

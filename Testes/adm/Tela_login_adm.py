@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import *
 import mysql.connector as mysql
 
-from Cliente.Templates.Tela_Login_adm import Ui_Login_ADM
-from Cliente.Modulos.adm.Tela_ADM_jogos import Tela_adm_menu
-from Cliente.Modulos.adm.Tela_cadastro_adm import Tela_inicial
+from Cliente.Modulos.Templates.Tela_Login_adm import Ui_Login_ADM
+from Testes.adm.Tela_ADM_jogos import Tela_adm_menu
+from Testes.adm.Tela_cadastro_adm import Tela_inicial
 
 
 class Login_adm(QMainWindow):

@@ -1,13 +1,8 @@
 from PyQt5.QtCore import QDate
-from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import *
 import socket
-import ast
 import json
 import threading
-import subprocess
-import os
-
 
 
 # Função global
@@ -18,7 +13,7 @@ def obter_endereco_ip():
 
 def conecta_servidor():
     #ip = '192.168.1.78'
-    ip = "192.168.241.179"
+    ip = "localhost"
     port = 32323
     addr = ((ip, port))
     return addr
@@ -42,31 +37,35 @@ ORDEM DAS TELAS:
 IMPORTAÇÕES:
 """
 # Tela_inicio
-from Cliente.Templates.Tela_inicio import Ui_Tela_inicio
+# from Modulos.Templates.Tela_inicio import *
+from Templates.Tela_inicio import *
+
+# from Cliente.Modulos.Templates.Tela_inicio import *
+
 """from Cliente.Modulos.Tela_login_cadastro import Cadastrar_usuario"""
 """from Cliente.Modulos.Tela_login_user import Tela_login_user"""
 
 # Tela_login_user
-from Cliente.Templates.Tela_login_user import Ui_Tela_login
+from Templates.Tela_login_user import *
 """from Cliente.Modulos.Tela_menu_principal import Tela_inicial"""
 
 # Tela_login_cadastro
-from Cliente.Templates.Tela_Cadastro import Ui_Ui_Tela_Login_cadastro_user
+from Templates.Tela_Cadastro import *
 
 # Tela_menu_principal
 """from Cliente.Modulos.Parametros_Servidor import conecta_servidor"""
-from Cliente.Templates.Tela_Principal import Ui_Tela_Principal
+from Templates.Tela_Principal import *
 """from Cliente.Modulos.Tela_de_Ajuda import Tela_adm_menu as Tela_ajuda"""
 """from Cliente.Modulos.Tela_adicionar_fundos import Tela_adicionar_fundos as Tela_adicionar_fundos"""
 
 # ERROR AQUI: RESOLVER PROBLEMA DE IMPORTAÇÃO CIRCULAR
-from Cliente.Modulos.adm.Tela_login_adm import Login_adm as Tela_login_adm
+# from Testes.adm.Tela_login_adm import Login_adm as Tela_login_adm
 
 # Tela_adicionar_fundos
-from Cliente.Templates.Tela_Adicionar_fundos_user import Ui_MainWindow
+from Templates.Tela_Adicionar_fundos_user import *
 """from Cliente.Modulos.Parametros_Servidor import conecta_servidor"""
 # Tela_de_Ajuda
-from Cliente.Templates.Tela_de_Ajuda import Ui_tela_ajuda
+from Templates.Tela_de_Ajuda import *
 
 ########################################################################################################################
 

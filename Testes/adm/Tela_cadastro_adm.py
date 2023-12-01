@@ -1,15 +1,7 @@
-from PyQt5.QtWidgets import QApplication, QPushButton
-from PyQt5.Qt import Qt
-from PyQt5.QtCore import pyqtSlot
-from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import *
-from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtPrintSupport import *
-import os
-import sys
 import mysql.connector as mysql
 
-from Cliente.Templates.Tela_cadastro_adm import Ui_Cadastro_adm
+from Cliente.Modulos.Templates.Tela_cadastro_adm import Ui_Cadastro_adm
 
 class Tela_inicial(QMainWindow):
     def __init__(self, *args, **argvs):
