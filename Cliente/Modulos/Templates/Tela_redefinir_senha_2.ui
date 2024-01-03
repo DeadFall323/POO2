@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ui_tela_login_redefinir_senha_2</class>
+ <widget class="QMainWindow" name="Ui_tela_login_redefinir_senha_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>908</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Jogue Agora</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(40, 42, 54);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>350</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>900</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:  rgb(68, 71, 90);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(40, 42, 54);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>Bem vindo a tela de recuperação de senha</string>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>Seu email foi encontrado.</string>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Agora insira sua nova senha</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	font: 12pt &quot;Segoe UI&quot;;
+    font: 10pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(33, 35, 45);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QFrame" name="frame_9">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_10">
+                <item>
+                 <widget class="QFrame" name="frame_11">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	font: 12pt &quot;Segoe UI&quot;;
+    font: 10pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(33, 35, 45);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_7">
+                   <item>
+                    <widget class="QLabel" name="label_2">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Segoe UI&quot;;
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Insira a nova senha:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">QLineEdit {
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    padding: 5px;
+    border: 2px solid #32314f; /* Cor da borda */
+    border-radius: 5px; /* Valor para arredondar os cantos */
+    background-color: #ffffff; /* Cor de fundo */
+    color: #32314f; /* Cor do texto */
+}
+
+QLineEdit:focus {
+    border-color: rgb(62, 52, 84); /* Cor da borda quando em foco */
+}</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_10">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_9">
+                <item>
+                 <widget class="QFrame" name="frame_12">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton {
+	font: 12pt &quot;Segoe UI&quot;;
+    font: 10pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(33, 35, 45);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_8">
+                   <item>
+                    <widget class="QLabel" name="label_5">
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Segoe UI&quot;;
+</string>
+                     </property>
+                     <property name="text">
+                      <string>Coloque novamente:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="lineEdit_2">
+                     <property name="styleSheet">
+                      <string notr="true">QLineEdit {
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    padding: 5px;
+    border: 2px solid #32314f; /* Cor da borda */
+    border-radius: 5px; /* Valor para arredondar os cantos */
+    background-color: #ffffff; /* Cor de fundo */
+    color: #32314f; /* Cor do texto */
+}
+
+QLineEdit:focus {
+    border-color: rgb(62, 52, 84); /* Cor da borda quando em foco */
+}</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_7">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>300</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QPushButton" name="pushButton_2">
+               <property name="minimumSize">
+                <size>
+                 <width>120</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>190</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    padding: 5px 10px;
+    font: 16pt &quot;Segoe UI&quot;;
+    border: none;
+    border-radius: 10px; /* Valor para arredondar os cantos */
+    background-color: #32314f; /* Cor de fundo desejada */
+    color: #ffffff; /* Cor do texto */
+}
+
+QPushButton:hover {
+    background-color: rgb(62, 52, 84); /* Roxo suave no hover */
+    color: #ffffff; /* Branco no hover */
+}
+</string>
+               </property>
+               <property name="text">
+                <string>Redefinir</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_8">
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+    font: 10pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(218, 218, 218);
+    background-color: rgb(33, 35, 45);
+    border-style: outset;
+    border-width: 0px;
+    border-color: beige;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(88, 88, 88); /* Cor de fundo quando o botão é destacado */
+}
+
+QPushButton:pressed {
+    background-color: rgb(40, 40, 40); /* Cor de fundo quando o botão é pressionado */
+}
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QPushButton" name="pushButton_3">
+               <property name="text">
+                <string>Cancelar</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

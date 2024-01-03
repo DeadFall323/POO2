@@ -1,19 +1,73 @@
 import threading
 import socket
 import json
-import mysql.connector as mysql
-import geocoder
+
 from datetime import datetime
 from decimal import Decimal
 
+from dependencias import instala_biblioteca
+
+# Verifica se as bibliotecas necessárias estão instaladas
+instala_biblioteca()
+
+import mysql.connector as mysql
+import geocoder
+
+
+
+
 ########################################################################################################################
 # Trecho relacionado a mudança de saldo do usuario
-
-
 travar_acesso = threading.Lock()
+def redefinir_senha(email, nova_senha):
+    travar_acesso = threading.Lock()
+    try:
+        conexao = mysql.connect(host='localhost', db='pooii', user='root', passwd='20pmto4b')
+        cursor = conexao.cursor()
+        cursor.execute("UPDATE usuarios SET senha = %s WHERE email = %s", (nova_senha, email))
+        conexao.commit()
+        conexao.close()
+    except Exception as e:
+        travar_acesso.release()
+        return f"Erro ao alterar senha: {str(e)}"
+
+def verifica_email_cadastrado(email):
+    print("Email:", email)
+    try:
+        conexao = mysql.connect(host='localhost', db='pooii', user='root', passwd='20pmto4b')
+        cursor = conexao.cursor()
+        cursor.execute("SELECT * FROM usuarios WHERE email = %s", (email,))
+        dados = cursor.fetchall()
+        if dados:
+            cursor.close()
+            conexao.close()
+            return True
+        else:
+            cursor.close()
+            conexao.close()
+            return False
+
+    except Exception as e:
+        return f"Erro ao verificar se usuário cadastrado: {str(e)}"
+
+def verifica_DataBase():
+    print("Verificando conexão com a DataBase")
+    travar_acesso = threading.Lock()
+    try:
+        conexao = mysql.connect(host='localhost', db='pooii', user='root', passwd='20pmto4b')
+        cursor = conexao.cursor()
+        cursor.execute("SELECT * FROM usuarios")
+        dados = cursor.fetchall()
+        if dados is not None:
+            return True
+        else:
+            return False
+
+    except Exception as e:
+        travar_acesso.release()
+        return f"Erro ao verificar conexão com Database: {str(e)}"
 
 def tabela_jogos(self):
-    # PRECISA IR PARA O SERVIDOR
     travar_acesso.acquire()
     try:
         conexao = mysql.connect(host='localhost', db='pooii', user='root', passwd='20pmto4b')
@@ -37,9 +91,8 @@ def tabela_jogos(self):
         return dados_json
 
     except Exception as e:
-        print("Erro ao acessar o banco de dados da tabela", e)
         travar_acesso.release()
-        return f"Erro: {str(e)}"
+        return f"Erro ao coletar tabela de jogos cadastrados: {str(e)}"
 
 def atualiza_saldo(novo_saldo, email_destino):
     travar_acesso.acquire()
@@ -112,38 +165,6 @@ def apaga_usuarios():
         travar_acesso.release()
         print(f"Erro ao apagar os dados da tabela 'usuarios': {err}")
         return False
-
-
-"""def limpar_base_sessao():
-    try:
-        with mysql.connect(host='localhost', db='pooii', user='root', passwd='20pmto4b') as conexao:
-            cursor = conexao.cursor()
-
-            cursor.execute("DELETE FROM sessao")
-            conexao.commit()
-            conexao.close()
-
-    except mysql.Error as err:
-
-        print(f"Erro ao limpar base de dados: {err}")"""
-
-
-"""def adicionar_sessao(nome, email, nome_usuario, telefone, nascimento, rg, saldo):
-    try:
-        with mysql.connect(host='localhost', db='pooii', user='root', passwd='20pmto4b') as conexao:
-            cursor = conexao.cursor()
-
-            cursor.execute(
-                "INSERT INTO sessao (nome, email, nome_usuario, telefone, nascimento, rg, saldo) VALUES ( %s, %s, %s, %s, %s, %s, %s)",
-                (nome, email, nome_usuario, telefone, nascimento, rg, saldo))
-            conexao.commit()
-            conexao.close()
-            print("Sessao criada com sucesso!")
-
-    except mysql.Error as err:
-        travar_acesso.release()
-        print(f"Erro ao inserir dados: {err}")"""
-
 
 def obter_informacoes_maquina():
     try:
@@ -238,29 +259,22 @@ def autenticar_usuario(ver_email, ver_senha):
     try:
         conexao = mysql.connect(host='localhost', db='pooii', user='root', passwd='20pmto4b')
         cursor = conexao.cursor()
-        print("Verificando credenciais...")
-        print("Email:", ver_email)
-        print("Senha:", ver_senha)
+
 
         cursor.execute('SELECT * FROM usuarios WHERE email = %s AND senha = %s', (ver_email, ver_senha))
         resultado = cursor.fetchone()
         conexao.commit()
         conexao.close()
         travar_acesso.release()
-        print("Resultado:", resultado)
+
 
         if ver_email == "admin" and ver_senha == "admin":
-
-
             return True
 
         elif resultado is not None and resultado[2] == ver_email and resultado[5] == ver_senha:
-
-
             return True
 
         else:
-            print("Usuario nao cadastrado!")
             return False
 
     except mysql.Error as err:
@@ -281,12 +295,8 @@ class ClienteThread(threading.Thread):
         print(50*'-')
 
     def run(self):
-        # self.name = self.csocket.recv(1024).decode()
-        # print(self.name, "se conectou!")
-        # recebe = ''
         while True:
-            # Recebe parametros(operacao/nome/ senha)
-            print("Aguardando nova conexão...")
+            # Recebe parametros(operacao/arg1/arg2)
             data = self.csocket.recv(1024)
             recebe = data.decode()
 
@@ -296,36 +306,63 @@ class ClienteThread(threading.Thread):
             # Separa os dados
             recebe = recebe.split(',')
             # Se não receber 2 dados, encerra a conexão
-            if len(recebe) != 3 :
+            if len(recebe) != 3:
                 print("Dados inválidos")
                 self.csocket.close()
-            else:
 
+            ################################ REQUISIÇÕES ACEITAS PELO SERVIDOR ##################################
+            else:
                 operacao = recebe[0]
                 print("Operação:", operacao)
-                ################################ REQUISIÇÕES ACEITAS PELO SERVIDOR ##################################
-
                 if recebe[0] == 'desconectar':
                     self.csocket.close()
                     print('Cliente se ', self.addr, 'Desconectou...')
                     break
 
-                elif recebe[0] == "requisita_sessao":
-                    print("Requisita sessao")
-                    pass
-                    """envia = str(pegar_dados_sessao())
-                    print("DADOS DA SESSAO:", envia)
-                    if envia is not None:
+                elif recebe[0] == "verifica_DB":
+                    print("Verificando conexão com a DataBase")
+                    if verifica_DataBase():
+                        envia = '1'
                         self.csocket.send(envia.encode())
-                        print("Sessao enviada")
-                        self.csocket.close()
-                        print('Cliente se ', self.addr, 'Desconectou...')
+                        print("Conexão com DataBase estabelecida")
                         break
                     else:
-                        print("Erro ao obter sessão")
                         envia = '0'
                         self.csocket.send(envia.encode())
-                        break"""
+                        print("Erro ao conectar com DataBase")
+                        break
+
+                elif recebe[0] == "verificar_email_cadastrado":
+                    print("Verificando se email ja foi cadastrado")
+                    email = recebe[1]
+                    if verifica_email_cadastrado(email):
+                        envia = '1'
+                        self.csocket.send(envia.encode())
+                        print("email encontrado")
+                        break
+                    else:
+                        envia = '0'
+                        self.csocket.send(envia.encode())
+                        print("Usuario não cadastrado")
+                        break
+
+                elif recebe[0] == "redefinir_senha":
+                    print("Usuario {} solicitou redefinição de senha".format(recebe[1]))
+                    email = recebe[1]
+                    nova_senha = recebe[2]
+
+                    if verifica_email_cadastrado(email):
+                        envia = '1'
+                        self.csocket.send(envia.encode())
+                        print("email encontrado")
+                        break
+                    else:
+                        envia = '0'
+                        self.csocket.send(envia.encode())
+                        print("Usuario não cadastrado")
+                        break
+
+
 
                 elif recebe[0] == 'requisita_tabela_jogos':
                     print("Requisita tabela de jogos")
@@ -526,9 +563,10 @@ if __name__ == '__main__':
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server.bind(addr)
+    ip_local = socket.gethostbyname(socket.gethostname())
     print(50*"-")
     print('Servidor iniciado!')
-    print("IP:", localhost)
+    print("IP:", ip_local)
     print("Porta:", port)
     print(50 * "-")
     while True:

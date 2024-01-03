@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6728cebb-c234-4b62-bbfa-7cea240cb1cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace-DESKTOP-CD50BAU.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/Ui/ui_Tela_principal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Dados.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Qt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_adicionar_fundos.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_cadastrar_usuario.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_principal.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_redefinir_senha.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_redefinir_senha_2.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_adicionar_fundos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_cadastrar_usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_configurar_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_inicial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_principal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_redefinir_senha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos/Templates/ui_Tela_redefinir_senha_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dados.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/Modulos/dependencias.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dependencias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Jogue_Agora - Cliente-Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Jogue_Agora - Cliente-Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Jogue_Agora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jogue_Agora.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/Cadastrar_jogos.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/Tela_ADM_jogos.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/Tela_cadastro.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/Tela_cadastro_adm.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_inicial.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/Tela_login_adm.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_Login.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/tela_adicionar_fundos_user.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/Templates/Tela_configurar_server.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/tela_busca_jogos_adm.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/tela_de_ajuda_user.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/tela_loja.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/tela_perfil_usuario.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface/Ui/tela_principal.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Raiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/Raiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_ADM_Jogos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_Adicionar_fundos_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_Cadastro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_Login_adm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_Principal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_buscar_jogos_adm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_cad_novo_jogo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_cadastro_adm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_cadastro_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_de_Ajuda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_inicio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_login_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/Tela_perfil_usuario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/Templates/imagem.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servidor/Modulos/Servidor_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidor/Modulos/Servidor_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marcos" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZWtyBZuFa6IAUXu6oIQOAeBkFl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Raiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui_Tela_Login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui_Tela_configurar_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ui_Tela_inicial.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kawan/OneDrive/Pycharm/POO2/Cliente&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kawan\OneDrive\Pycharm\POO2\Cliente\Modulos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Raiz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Raiz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ui_Tela_Login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos/Templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Templates/ui_Tela_Login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ui_Tela_configurar_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos/Templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Templates/ui_Tela_configurar_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ui_Tela_inicial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jogue_Agora" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Modulos/Templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Modulos/Templates/ui_Tela_inicial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Raiz" />
+        <item itemvalue="Python.ui_Tela_Login" />
+        <item itemvalue="Python.ui_Tela_inicial" />
+        <item itemvalue="Python.ui_Tela_configurar_server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6728cebb-c234-4b62-bbfa-7cea240cb1cd" name="Changes" comment="" />
+      <created>1702549914449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702549914449</updated>
+      <workItem from="1702549915518" duration="1463000" />
+      <workItem from="1702941401502" duration="425000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Main_py$ui_Tela_Login.coverage" NAME="ui_Tela_Login Coverage Results" MODIFIED="1702550500970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos/Templates" />
+    <SUITE FILE_PATH="coverage/Main_py$Main.coverage" NAME="Main Coverage Results" MODIFIED="1702550546915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Main_py$Raiz.coverage" NAME="Raiz Coverage Results" MODIFIED="1702550541501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos" />
+    <SUITE FILE_PATH="coverage/Main_py$ui_Tela_configurar_server.coverage" NAME="ui_Tela_configurar_server Coverage Results" MODIFIED="1702550483300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos/Templates" />
+    <SUITE FILE_PATH="coverage/Main_py$ui_Tela_inicial.coverage" NAME="ui_Tela_inicial Coverage Results" MODIFIED="1702550487966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modulos/Templates" />
+  </component>
+</project>
